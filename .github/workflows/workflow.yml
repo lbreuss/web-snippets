@@ -20,8 +20,8 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        #with:
-        #  path: 'html'      # upload generated folder
+        with:
+          path: 'html'      # upload generated folder
   
   deploy:
     needs: pages-directory-listing
